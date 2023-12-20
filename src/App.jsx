@@ -6,6 +6,7 @@ import Nav from './components/nav'
 import Gymnacios from './pages/gymnacios'
 import Nosotros from './pages/nosotros'
 import Informacion from './pages/informacion'
+import Usuario from './pages/usuario'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
           <Route path='/Gymnacios' element={<Gymnacios />} />
           <Route path='/Nosotros' element={<Nosotros/>} />
           <Route path='/Informacion' element={<Informacion />} />
+          <Route path='/Usuario' element={<Usuario />} />
         </Routes>
       </BrowserRouter>
     </>
