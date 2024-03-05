@@ -19,11 +19,11 @@ const Nav=()=>{
       </div>
       <div onClick={()=>{stateBar?setStateBar(false):setStateBar(true)}} className="barsMenu">{barsMenu}</div>
       <ul className={stateBar?"menu":"menu noMenu"}>
-        <li><Link className="linkNav" to='/Entrenamientos'><div className="iconLinkNav"><FontAwesomeIcon icon="fa-solid fa-dumbbell" size="sm" style={{color:"#ffffff"}}/></div>Entrenamientos</Link></li>
-        <li><Link className="linkNav" to='/Gymnacios'><div className="iconLinkNav"><FontAwesomeIcon icon="fa-solid fa-heart" size="sm" style={{color:"#ffffff"}}/></div>Gymnacios</Link></li>
-        <li><Link className="linkNav" to='/Nosotros'><div className="iconLinkNav"><FontAwesomeIcon icon="fa-solid fa-users" size="sm" style={{color:"#ffffff"}}/></div>Nosotros</Link></li>
-        <li><Link className="linkNav" to='/Informacion'><div className="iconLinkNav"><FontAwesomeIcon icon="fa-solid fa-circle-info" size="sm" style={{color:"#ffffff"}}/></div>Informacion</Link></li>
-        <li><Link className="linkNav" to='/Usuario'><div className="iconLinkNav"><FontAwesomeIcon icon="fa-solid fa-user" size="sm" style={{color:"#ffffff"}}/></div>Usuario</Link></li>
+        <li><Link className="linkNav" to='/Entrenamientos'><div className="iconLinkNav"><FontAwesomeIcon icon="fa-solid fa-dumbbell" size="sm" style={{color:"#ff5252"}}/></div>Entrenamientos</Link></li>
+        <li><Link className="linkNav" to='/Gymnacios'><div className="iconLinkNav"><FontAwesomeIcon icon="fa-solid fa-heart" size="sm" style={{color:"#ff5252"}}/></div>Gymnacios</Link></li>
+        <li><Link className="linkNav" to='/Nosotros'><div className="iconLinkNav"><FontAwesomeIcon icon="fa-solid fa-users" size="sm" style={{color:"#ff5252"}}/></div>Nosotros</Link></li>
+        <li><Link className="linkNav" to='/Informacion'><div className="iconLinkNav"><FontAwesomeIcon icon="fa-solid fa-circle-info" size="sm" style={{color:"#ff5252"}}/></div>Informacion</Link></li>
+        <li><Link className="linkNav" to='/Usuario'><div className="iconLinkNav"><FontAwesomeIcon icon="fa-solid fa-user" size="sm" style={{color:"#ff5252"}}/></div>Usuario</Link></li>
       </ul>
 
     </nav>    
