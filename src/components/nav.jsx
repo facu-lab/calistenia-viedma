@@ -16,11 +16,11 @@ const Nav=()=>{
       </div>
       <div className="barsMenu">{barsMenu}</div>
       <ul className="menu">
-        <li><Link className="linkNav" to='/Entrenamientos'>Entrenamientos</Link></li>
-        <li><Link className="linkNav" to='/Gymnacios'>Gymnacios</Link></li>
-        <li><Link className="linkNav" to='/Nosotros'>Nosotros</Link></li>
-        <li><Link className="linkNav" to='/Informacion'>Informacion</Link></li>
-        <li><Link className="linkNav" to='/Usuario'>Usuario</Link></li>
+        <li><div className="iconLinkNav"><FontAwesomeIcon icon="fa-solid fa-dumbbell" size="2xl" style={{color:"#ffffff"}}/></div><Link className="linkNav" to='/Entrenamientos'>Entrenamientos</Link></li>
+        <li><div className="iconLinkNav"><FontAwesomeIcon icon="fa-solid fa-heart" size="2xl" style={{color:"#ffffff"}}/></div><Link className="linkNav" to='/Gymnacios'>Gymnacios</Link></li>
+        <li><div className="iconLinkNav"><FontAwesomeIcon icon="fa-solid fa-users" size="2xl" style={{color:"#ffffff"}}/></div><Link className="linkNav" to='/Nosotros'>Nosotros</Link></li>
+        <li><div className="iconLinkNav"><FontAwesomeIcon icon="fa-solid fa-circle-info" size="2xl" style={{color:"#ffffff"}}/></div><Link className="linkNav" to='/Informacion'>Informacion</Link></li>
+        <li><div className="iconLinkNav"><FontAwesomeIcon icon="fa-solid fa-user" size="2xl" style={{color:"#ffffff"}}/></div><Link className="linkNav" to='/Usuario'>Usuario</Link></li>
       </ul>
 
     </nav>    
