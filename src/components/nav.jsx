@@ -1,14 +1,20 @@
 import { Link } from "react-router-dom"
 import "../styles/nav.css"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faBars } from "@fortawesome/free-solid-svg-icons"
+import logo from "../assets/iconoViedmaReal.png"
+ 
+const barsMenu=<FontAwesomeIcon icon={faBars} size="2xl" style={{color: "#ffffff",}} />;
 
 
 const Nav=()=>{
   
   return(
     <nav>
-      <div >
-      <Link className="logoCV" to='/'>Home</Link>
+      <div className="contenedor-logoCV">
+        <Link className="logoCV" to='/'><img src={logo} /></Link>
       </div>
+      <div className="barsMenu">{barsMenu}</div>
       <ul className="menu">
         <li><Link className="linkNav" to='/Entrenamientos'>Entrenamientos</Link></li>
         <li><Link className="linkNav" to='/Gymnacios'>Gymnacios</Link></li>

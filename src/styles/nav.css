@@ -8,22 +8,49 @@ nav{
   background: black;
   width: 100%;
   height: 100px;
-  position: relative;
+  display: flex;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
 }
 
 .menu{
   background: red;
   display: flex;
   flex-direction: column;
-  position: fixed;
+  position: absolute;
+  top: 100%;
+  height: 500px;
+  width: 300px;
 }
 
 .linkNav{
   text-decoration: none;
   color: white;
+  background: tan;
+}
+
+.contenedor-logoCV{
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-self: center;
+  margin-left: 5px;
 }
 
 .logoCV{
-  color:white;
-  text-decoration: none;
+  width: 100%;
+  height: 100%;
+}
+
+.logoCV img{
+  width: 100%;
+  height: 100%;
+}
+
+.barsMenu{
+  display: inline-block;
+  height: min-content;
+  align-self: center;
+  margin-right: 25px;
 }

@@ -7,12 +7,14 @@ import Gymnacios from './pages/gymnacios'
 import Nosotros from './pages/nosotros'
 import Informacion from './pages/informacion'
 import Usuario from './pages/usuario'
+import Header from './components/header'
 
 function App() {
 
   return (
-    <>
+    <main>
       <BrowserRouter>
+        <Header />
         <Nav />
         <Routes>
           <Route path='/' element={<Home />} />
@@ -23,7 +25,7 @@ function App() {
           <Route path='/Usuario' element={<Usuario />} />
         </Routes>
       </BrowserRouter>
-    </>
+    </main>
   )
 }
 
