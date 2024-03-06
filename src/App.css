@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 main{
-    position:relative;
-    height: 100%;
-    width: 100%;
-    background: gray;
+  position:relative;
+  height: 100%;
+  width: 100%;
+  background: gray;
+}
+:root{
+  --rojo: #ff5252;
+  --dorado: #ffdc3e;
+  --bebas: "Bebas Neue", sans-serif;
 }
