@@ -15,19 +15,38 @@ nav{
 }
 
 .menu{
-  background: red;
+  background: rgba(0,0,0,0.8);
   display: flex;
   flex-direction: column;
   position: absolute;
   top: 100%;
   height: 500px;
   width: 300px;
+  justify-content: space-evenly;
+  padding-left: 20px;
+  text-decoration: none;
+  list-style: none;
+  transition: transform 0.5s;
+  border-radius: 0px 0px 20px 0px;
+}
+
+.noMenu{
+  transform: translateX(-305px);
+  transition: transform 0.5s;
 }
 
 .linkNav{
   text-decoration: none;
   color: white;
-  background: tan;
+  font-size: 30px;
+  font-family:var(--bebas);
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0px;
+}
+
+.iconLinkNav{
+  width: 45px;
 }
 
 .contenedor-logoCV{
